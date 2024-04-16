@@ -1,0 +1,20 @@
+﻿<Window x:Class="EvidenceZaměstnanců.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EvidenceZaměstnanců"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="300" Width="600">
+    <Grid Background="LightSalmon">
+        
+        <TextBox HorizontalAlignment="Left" x:Name="NewName" Margin="84,51,0,0" TextWrapping="Wrap" Text="Zadejte nové jméno" VerticalAlignment="Top" Width="180" Height="20" />
+        <TextBox HorizontalAlignment="Left" x:Name="NewSurame" Margin="84,105,0,0" TextWrapping="Wrap" Text="Zadejte nové příjmení" VerticalAlignment="Top" Width="180" Height="20" />
+        <TextBox HorizontalAlignment="Left" x:Name="NewId" Margin="84,169,0,0" TextWrapping="Wrap" Text="Zadejte nové ID" VerticalAlignment="Top" Width="180" Height="20" />
+        <Calendar HorizontalAlignment="Left" x:Name="NewDatum" Margin="353,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Zadejte nové datum narození" HorizontalAlignment="Left" Margin="353,48,0,0" VerticalAlignment="Top" Width="179"/>
+        
+        <Button Content="Zaznamenat" Height="30" Width="100" HorizontalAlignment="Left" Margin="124,222,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,-0.349" Click="Button_Click"/>
+
+    </Grid>
+</Window>
